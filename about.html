@@ -55,7 +55,7 @@
       <div class="container">
         <div class="row no-gutters slider-text align-items-center justify-content-center" data-scrollax-parent="true">
           <div class="col-md-6 ftco-animate text-center" data-scrollax=" properties: { translateY: '70%' }">
-            <h1 class="mb-3 bread" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Projenin Konusu, <br>Kapsamı ve <br>Litaratür Özeti</h1>
+            <h1 class="mb-3 bread" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Projenin Konusu, <br>Kapsamı ve <br>Literatür Özeti</h1>
           </div>
         </div>
       </div>
@@ -65,111 +65,151 @@
       <div class="container">
         <div class="row justify-content-center mb-5 pb-5">
           <div class="col-md-6 heading-section ftco-animate">
-            <!-- <span class="subheading">Our Services</span> -->
-            <h2 class="mb-4">Projenin Amacı</h2>
-            <p>AVATAR projesinin amacı bir akıllı ev ortamında bulunan bireylerin fizyolojik hayati işaret verilerinin ve
-              kamera görüntülerinin Nesnelerin İnterneti (IoT-Internet of Things) ağı ortamında bir hasta gözetim merkezine iletilmesini
-              sağlayacak en etkin Bilgi Merkezli Ağ (Information Centric Networking) protokollerinin belirlenmesidir. AVATAR projesi
-              üniversitemizin araştırma laboratuvarında yürütüleceği için hayati işaret verileri laboratuvarda gönüllü çalışacak öğrenciler
-              üzerinden toplanacaktır. Bu nedenle gerekli etik kurul kararı alınmıştır ve ekte sunulmuştur. Bununla birlikte hayati işaret
-              verilerinin iletilmesinde bir hasta gözetim merkezine gerek duyulmayacaktır. Bireylerin hayati işaret verileri İnternet üzerinden
-              laboratuvarımızda yer alan bir sunucu bilgisayara aktarılacaktır. Bu sunucu bilgisayar hasta gözetim merkezi yerine geçecektir.
-              Akıllı ev ortamında bulunan bireyler giyilebilir fizyolojik algılayıcılar ile donatılacaktır ve evin çeşitli yerlerinde bulunan kameralar
-              görüntü toplayacaktır. Hayati işaret verilerinin ve kamera görüntülerinin transferi IoT ağı sırasında CCN-Lite protokol katmanı
-              kullanılarak IEEE 802.15.4 radyo üzerinden gerçekleştirilecektir. CCN-Lite protokol katmanı Xerox PARC’ın CCNx protokol
-              katmanının Linux çekirdekli gömülü cihazlar için uyarlanmış hafif ağırlıkta (light weight) olan bir sürümüdür. AVATAR
-              uygulamasının işlevsel olabilmesi için IoT CCN-Lite yığını ile birlikte kaynakları kısıtlı Nesnelerin İnterneti cihazları üzerinde
-              çalışabilecek verimli yönlendirme (routing) protokolünün seçilmesi ve bununla birlikte gerçek-zamanlı verilerin aktarımını
-              sağlayacak uygulama katmanı protokolünün kullanılması da önem arz etmektedir. Bu kapsamda VIF ve RONR yönlendirme
-              protokolleri bulunsa da bu protokollerin AVATAR uygulaması verilerini iletmedeki performansı araştırmaya açıktır. Bununla
-              birlikte daha verimli yeni yönlendirme protokollerinin geliştirilmesi de gerekecektir. Bireylerin fizyolojik hayati işaret verilerinin ve
-              kamera görüntülerinin gerçek-zamanlı olarak iletilmesi için CCN-Lite protokolü üzerinde bir uygulama katmanı protokolünün de
-              çalışması gerekecektir. Bildiğimiz kadarı ile bu verilerin gerçek-zamanlı olarak iletilmesini sağlayacak böyle bir uygulama
-              katmanı protokolü henüz önerilmemiştir. Proje yöneticisinin SİREN projesi adında benzer bir projesi daha bulunmaktadır.
-              SİREN projesi kapsamında IETF CoAP/UPD/IPv6-RPL/6LowPAN/6TiSCH/802.15.4e/802.15.4 protokol yığını (IoT IP yığını
-              olarak kısaltılmıştır) üzerinden bir bakımevinde bulunan bireylerin fizyolojik hayati sağlık verilerinin bir hasta gözetim merkezine
-              iletilmesi problemi üzerine çalışılmaktadır. AVATAR projesinde ise IoT IP yığınına alternatif IoT CCN-Lite yığını kullanılacaktır.
-              Bu bağlamda AVATAR projesi kapsamında IoT IP yığını (stack) ve IoT CCN-Lite yığını arasındaki performans karşılaştırması
-              da yapılabilecektir. Performans değerlendirmesi platformu olarak hem benzetim (simulator) hem de test-yatağı (testbed)
-              ortamında çalışılacaktır.</p>
+            <p>Elektronik ve tümleşik devrelerdeki son yıllarda gerçekleşen gelişmeler insan vücudu üzerinde giyilebilir veya implante edilebilir
+              küçük ve akıllı tıbbi cihazların ve video kameralarının geliştirilmesine olanak sağlamıştır. Bu cihazlar insan üzerinden fizyolojik
+              verileri ve bir ortamdaki görüntüleri toplayabilme özelliğine sahiptirler. Bu cihazlara kablosuz haberleşme üniteleri takıldığında bir
+              ağ ortamından fizyolojik verileri aktarabilme özelliğine de sahip olabilmektedirler. Böyle bir kablosuz haberleşme ağı akıllı ev
+              ortamında hastaların takibinde kullanılabilir. Akıllı ev ortamında yer alan kişilerin fizyolojik verileri ve kamera görüntüleri İnternet
+              üzerinden bir hasta gözetim merkezine iletildiğinde kişilerin sağlık durumları ile ilgili gözetim yapılabilir. Akıllı ev ortamında yer
+              alan bu kablosuz ağ Nesnelerin İnterneti olarak adlandırılabilir. Kablosuz ağlar kabloların bulunmaması ve altyapı gerektirmemesi
+              dolayısı ile bakımı daha kolaydır. Bu nedenle kablosuz haberleşme Nesnelerin İnterneti’nin teknolojisi olacaktır. Kişilerin fizyolojik
+              verileri İnternet üzerinden bir hasta gözlem merkezine iletildiğinde kişilerin sağlık durumları ile ilgili gözetim yapılabilir. AVATAR
+              projesi tamamen üniversitemizin araştırma laboratuvarında gönüllü öğrenciler ile birlikte yürütülecektir. Bu nedenle gerekli etik
+              kurul kararı alınmıştır ve ekte sunulmuştur.
+            </p>
+            <p>Nesnelerin İnterneti (IoT) gömülü tek adreslenebilir nesnelerin interneti veya mobil ağlar gibi benzeri yapılar içerisinde sanal
+              olarak temsil edilmesini ifade eder. Bu nesneler gömülü cihazlardır. Nesneler ile ilgili algılayıcı bilgileri veya kendi özellikleri bir
+              İnternet ortamından gerçek-zamanlı olarak belirlenen hedefe iletilir. Bir İnternet ortamında bulunan cihazlar bir amacı
+              gerçekleştirebilmek için birbirleri ile iletişim halinde bulunurlar. IoT uygulamaları çevre gözetleme, altyapı yönetimi, endüstriyel,
+              enerji yönetimi, tıp ve sağlık hizmetleri, bina ve ev otomasyonu, nakliyat gibi çok geniş alanda kullanılabilirler. Geleneksel İnternet
+              ağı üzerinde oluşan yapıya da Nesnelerin İnterneti denir (Tsai vd., 2014; Atzori vd., 2010). Nesnelerin İnterneti’nde bildiğimiz
+              İnternet altyapısı kullanılarak gömülü cihazlar birbiri ile iletişimde bulunurlar. Bir kablosuz algılayıcı ağının (WSN) (Akyildiz vd.,
+              2002) kendisi veya kablosuz ağ üzerinde yer alan düğümler de bir IoT ortamında yer alıyor olarak düşünülebilir (Mainetti vd.,
+              2011; Alcaraz vd., 2010; Christin vd. 2009). Böyle bir senaryoda WSN verileri internet üzerinden belirlenen bir hedefe iletilirler.
+              AVATAR projesi kapsamında da sağlık hizmetleri için oluşturulan bir WSN, İnternet üzerinden bir hasta gözetim merkezine
+              bağlanacaktır. Böyle bir ortam da IoT ortamı olarak düşünülebilir.
+            </p>
+            <p>Kalorama Information tarafından yapılan bir araştırmaya göre hastane ortamı dışında evde gerçekleştirilen sağlık hizmetlerinin
+              daha ucuz olması, acil servis odalarının daha çok kalabalık olması ve yaşlı hasta sayısının artması gibi sebepler uzaktan sağlık
+              hizmetlerinin ortaya çıkmasına neden olacaktır. Amerika Birleşik Devletleri’nde 2007’de 3,9 miyar dolar, 2011’de 8,9 milyar dolar
+              olan hastane dışı sağlık hizmetleri pazarı 2016’da 20,9 milyar dolara ulaşacaktır (InformationWeek, 2016a). Son yıllarda bu
+              kapsamda ticari ürünler geliştiren şirketler de pazara çıkmıştır (InformationWeek, 2016b). Bu ürünler bireylerin sağlık ile ilgili
+              hayati verilerini bir ev ortamında giyilebilir cihazlar üzerinden gözetim imkânı sunmaktadır. Bu proje kapsamında ise bir ev,
+              hastane, bakımevi veya huzurevi ortamı düşünülmektedir. Ancak çalışma üniversitemizin araştırma laboratuvarında yer alan test
+              yatağında gerçekleştirilecektir. AVATAR projesinde fizyolojik algılayıcılarla donatılmış bireylerin sağlık durumlarını gösteren
+              verilerin bilgi merkezli ağ mimarisi ve algoritmaları ile bir hasta gözetim merkezine İnternet aracılığı ile iletilmesi problemi üzerine
+              çalışılacaktır. Yani bireylerin sağlık verileri Nesnelerin İnterneti ortamında bir hasta gözetim merkezine iletilecektir.
+            </p>
+            <p>Bireylerin birçok hayati işaretleri bulunur. Bunlardan bazıları fizyolojik algılayıcılarıyla tespit edilebilir. Bu algılayıcıların bazıları
+                araştırma laboratuvarlarında veya sanayide geliştirilmiştir ve nesnelerin interneti ortamında kullanılabilirler. Örneğin;
+              <ul>
+                <li>Kişilerin kalp atışının, kandaki oksijen doyum seviyesinin ve derideki kan hacminin değişim seviyesinin ölçülmesinde nabız
+                  oksimetri algılayıcısı kullanılabilir.</li>
+                <li>Kişilerin kalp fonksiyonlarının takip edilmesinde Electrocardiography (ECG/EKG) algılayıcısı kullanılabilir.</li>
+                <li>Kişilerin kas fonksiyonlarının takip edilmesinde elektromiyografi (EMG) algılayıcısı kullanılabilir.</li>
+                <li>Kişilerin beyin aktivitelerinin takip edilmesinde elektroensephalografi (EEG) algılayıcısı kullanılabilir.</li>
+                <li>Kişilerin organ hasarı ve kardiovasküler durumun takip edilmesi kan basıncı ölçer (BP) algılayıcısı ile tespit edilebilir.</li>
+                <li>Kişilerin hareket aktivitelerinin takip edilmesinde hareket tespit (örneğin ivme ölçer) algılayıcıları kullanılabilir.</li>
+              </ul>
+              Akademide ve sanayide sağlık hizmetleri için Nesnelerin İnterneti kapsamında çalışmalar yapılmıştır ve yapılmaya devam
+              etmektedir. Bu çalışmaların bir kısmı genel Nesnelerin İnterneti (Singh vd., 2014; Aggarwal vd., 2013) üzerine olmakla birlikte bir
+              kısmı da sağlık hizmetleri için Nesneleri İnterneti (Crosby vd., 2012; Ullah vd., 2010) veya Wireless Boday Area Networks
+              (WBAN) (Movassaghi vd., 2014; Cavallari vd., 2014; Latre vd., 2011; Chen vd., 2011) kapsamında yapılmıştır.
+            </p>
+            <p>AVATAR projesi kapsamında sağlık hizmetleri için kişilerin üzerinde bulunan fizyolojik algılayıcıları bir kablosuz algılayıcı ağı
+              oluşturacaklardır. Bu algılayıcılar elde ettikleri verileri yine bir kablosuz yerel alan ağı (WLAN) aracılığı ile Internet üzerinden bir
+              hasta gözlem merkezine ulaştırılacaktır. Kişilerin üzerinde algılayıcılardan oluşan kablosuz kişisel alan ağı (WBAN) sırası, ev
+              içerisinde oluşan ağ kablosuz yerel alan ağı (WLAN) sırası, İnternet de geniş alan ağı (WAN) sırası olarak adlandırılabilir. Bu
+              durumda AVATAR projesinin ağ mimarisi 3-sıra (3-tier)’dan oluşacaktır. Bunlar sırasıyla WBAN, WLAN ve WAN’dır. AVATAR
+              projesinin ağ mimarisi bir ev ortamı için Şekil 1’de verilmiştir. Şekil 1’de yalnızca 3 oda gösterilmiştir. Gerçek hayatta birçok oda
+              bulunabilir. Tek bir bireyin oluşturduğu sıra WBAN sırası olarak adlandırılmıştır. Şekil 2’de WBAN sırasında yer alan bazı fizyolojik
+              algılayıcılar verilmiştir. Bireylerin üzerinde bir veya birden fazla algılayıcı bulunabilir. Şekil 3’de WBAN sırasında yer alan fizyolojik
+              algılayıcılar örnek donanımı verilmiştir. Ev içerisinde çeşitli yerlere kablosuz erişim noktası (access point) yerleştirilmiştir. Aynı ev
+              ortamında bulunan bireylerin tamamı ve erişim noktaları kendi aralarında bir WSN oluştururlar. Bu sıra WLAN sırası olarak
+              adlandırılmıştır. Ev ortamında oluşan WSN bir arageçit (gateway) aracılığı ile İnternet’e ve İnternet aracılığı ile de hasta gözlem
+              merkezine bağlanır. Bu sıra da WAN sırası olarak adlandırılmıştır.
+            </p>
+            <p>İnternet’teki mevcut problemler bu mimarinin zamanında kısıtlı ve pahalı kaynaklı bilgisayarlar için tasarlanmış olmasındandır. O
+              zamanlar İnternet’ten beklenti paketlerin birbiriyle güven ilişkisi üzerine kurulu durağan makinalar üzerinden iletilmesiydi.
+              İnternet’in anahtar tasarım ilkeleri yeni ağların kolaylıkla eklenmesine olanak tanır. Bu kolaylık İnternet’in oldukça büyümesine
+              vesile olmuştur. Bu ilkeler aynı zamanda IP katmanının altında olmakla beraber üzerinde de birçok protokolün ve servislerin
+              gelişmesine fırsat vermiştir. İnternet’teki bu büyüme aynı zamanda geniş ölçekli içerik dağıtımı, hareketlilik, güvenlik ve güven gibi
+              gereksinimleri de beraberinde getirdi. Ancak İnternet bu gereksinimleri karşılayacak ilkelerle tasarlanmamıştı. Bu nedenle bir
+              takım yamalarla bu gereksinimler İnternet üzerinde geçici olarak çözülmeye çalışılıyor (Handley, 2006). Bununla birlikte birçok
+              yeni gereksinimler de mevcut İnternet tarafından karşılanamamaktadır. Bu durum İnternet için yamamalarla devam etmeli yoksa
+              temiz bir mimari tasarımıyla mı devam etmeli sorusunu gündeme getirmiştir (Rexford vd., 2010). Gelecek İnternet adı altında
+              yapılan yeni çalışmalar İnternet’in sınırlandırmalarını göz önünde bulundurarak gelecek nesil İnternet mimarilerini araştırmaktadır
+              (Stuckmann vd., 2009; Pan vd., 2011). Bu bağlamda Bilgi Merkezli Ağ (ICN) bu mimariler içerisinde gelecek vadeden bir aday
+              olarak karşımıza çıkmaktadır (Choi vd., 2011; Ahlgren vd., 2012; Xylomenos vd. 2014).
+            </p>
+            <p>Bilgi merkezli ağ mimarisi Nesnelerin İnterneti için de uygun bir aday olarak önerilmiştir (Song, vd. 2015. Amedo, vd. 2015;
+              Seales, vd., 2015; Baccelli, vd., 2014; Quevedo, vd., 2014; Fotiou, vd., 2014; Dinh vd., 2013; Talebifard, vd., 2013; Song vd.,
+              2013; Amedo, vd., 2013; Francois, vd., 2013; ). Bilgi merkezli ağ mimarisinin Nesnelerin İnterneti alanında kullanımı üzerine
+              yapılan çalışmaların hepsi konferans yayınıdır. Bildiğimiz kadarıyla bir dergide yapılmış bir yayın bulunmamaktadır. Bu
+              yayınlardan yalnızca birkaç tanesi bilgi merkezli ağ protokollerinin Nesnelerin İnterneti kapsamında kullanıdığında performans 
+              değerlendirmesini içermektedir. Bununla birlikte İnternet standartlarını oluşturan IETF’de Bilgi merkezli ağ mimarisi çalışma grubu
+              altında bilgi merkezli ağ mimarisinin Nesnelerin İnterneti kapsamına uyarlanması üzerine çalışmaktadır (Lindgren, vd. 2016;
+              Zhang, vd., 2016b). Bu nedenle bilgi merkezli ağ mimarisinin Nesnelerin İnterneti kapsamında kullanımı araştırmaya açık bir
+              alandır. AVATAR projesinde bu açıklık doldurulmaya çalışılacaktır. AVATAR projesinde performansı etkileyen yönlendirme ve
+              uygulama katmanı protokolleri detaylı olarak araştırılacaktır.
+            </p>
+            <p>IETF tarafından Nesnelerin İnterneti kapsamında birtakım standart protokoller de önerilmiştir (Vilajosana vd., 2014; Sheng vd.,
+              2013; Ishaq vd., 2013). Bunlar uygulama katmanında CoAP (Shelby vd., 2016 ), taşıma katmanında UDP, ağ katmanında IPv6 ve
+              RPL (Winter vd., 2016; Gaddour vd., 2012), ağ adaptasyon katmanında 6LoWPAN (Montenegro vd., 2016) ve bağ, fiziksel
+              katmanda IEEE 802.15.4, Bluetooth veya UWB protokolleridir. Bunlarla birlikte literatürde WBAN sırası için anten tasarımı
+              (Dumanli vd., 2012), fiziksel katman (Reusens vd., 2009), MAC (Rahim vd., 2012; Gopalan vd., 2010), yönlendirme (Movassaghi
+              vd., 2013), taşıma (Braem vd., 2008) ve uygulama (Karagiannis vd., 2015) katmanları protokolleri mevcuttur. Bunların dışında
+              WSN (Akyildiz vd., 2002) ve mobil tasarsız ağlar (MANET) (Perkins, 2008) için geliştirilen protokoller de AVATAR projesinde
+              kullanılabilirdi. Ancak AVATAR projesinde bu protokoller yerine bilgi merkezli ağ mimarisi ve protokolü olan CCN-Lite (Baccelli
+              vd., 2014) kullanılacaktır. Bunun en önemli nedeni bilgi merkezli ağ mimarilerinin gelecek nesil İnternet’in mimarisini
+              oluşturacağının düşünülmesidir. CCN-Lite Xerox PARC tarafından geliştirilen CCNx’in (Jacobson vd., 2009) kaynakları kısıtlı
+              cihazlar için geliştirilmiş hafif ağırlıklı (lighrweight) bir sürümüdür. Şekil 4.’de AVATAR projesi protokol katmanları verilmiştir. Bilgi
+              merkezli ağ mimarisi İnternet mimarisinden tamamen farklı olduğundan bağ ve fiziksel katman haricindeki bütün diğer katmanlar
+              tek bir karmana indirgenmiştir. AVATAR projesi kapsamında IEEE 802.15.4 (IEEE802154) protokolü üzerinde CCN-Lite
+              (CCNLite) protokolü kullanılacaktır. Netinf (Dannewitz vd., 2013), PSIRP (Fotiou vd., 2012) ve DONA (Koponen vd., 2007)
+              yaklaşımları da bilgi merkezli ağ mimarileri arasında yer almaktadır. Bu ağ mimarilerinin desteği maalesef bulunmamaktadır ve bu
+              projeler sonlandırılmıştır. NDN (Zhang vd., 2014a) de 2010 yılında CCNx bilgi merkezli ağ mimarisinden ayrılmış bir projedir.
+              Ancak NDN’in kaynakları kısıtlı Nesnelerin İnterneti cihazları için uygulanabilir bir sürümü bulunmamaktadır. CCNx bilgi merkezli
+              ağ mimarisi diğerleri arasından daha güçlü bir aday olarak sıyrılmıştır. CCN-Lite bu cihazlar için kullanılabilecek tek adaydır. Bu
+              nedenle AVATAR projesinde CCNx bilgi merkezli ağ mimarisinin kaynakları kısıtlı Nesnelerin İnterneti cihazlarında
+              kullanılabilecek CCN-Lite sürümü seçilmiştir.
+            </p>
+            <p>AVATAR projesi kapsamında bireylerin hayati sağlık işaretleri Nesnelerin İnterneti ağı ortamında bilgi merkezli ağ mimarisi ile
+              CCN-Lite/802.15.4 protokol yığını üzerinden bir hasta gözetim merkezine iletilecektir. İstek üzerine içerik alımı ve planlanmış
+              içerik gibi Nesnelerin İnterneti kapsamında gerçekleşen haberleşme kalıpları içeriklerin ağ içerisinde de saklanmasından (cache)
+              ötürü bilgi merkezli ağ tarafından daha kolay yerine getirilebilir. Bu mekanizma enerji ve kaynak tasarrufunun yanı sıra katmanları
+              azalttığından karmaşıklık açısından basitliği sağlar. Bu nedenlerden ötürü AVATAR projesinde bilgi merkezli ağ mimarisinin
+              Nesnelerin İnterneti cihazlarında kullanılabilecek CCN-Lite sürümü kullanılacaktır. Öncelikle proje kapsamında alınacak
+              Nesnelerin İnterneti cihazlarıyla bir test yatağı (testbed) oluşturulmalıdır. Sonrasında CCN-Lite sürümü proje kapsamında
+              kullanılacak Nesnelerin İnterneti cihazları üzerinde çalışır hale getirilmelidir. Nesnelerin İnterneti kapsamında kullanılan cihazların
+              belleklerinin yetersiz olmasından dolayı bilgi merkezli ağlar için geliştirilen yönlendirme protokolleri bu cihazların üzerinde
+              kullanılamaz. Bu nedenle bu cihazlar üzerinde çalışabilecek yeni yönlendirme protokollerine ihtiyaç duyulmaktadır. Bildiğimiz
+              kadarı ile bu kapsamda şimdiye kadar yalnızca Vanilla Interest Flooding (VIF) ve Reactive Optimistic-based Roting (RONR)
+              yönlendirme protokolleri önerilmiş bulunmaktadır ve bu protokollerin yüzeysel performans değerlendirmeleri gerçekleştirilmiştir
+              (Bacelli vd., 2014). Ancak bu protokollerin AVATAR projesinde olduğu gibi bireylerin sağlık verilerini iletmedeki performans
+              değerlendirmesi henüz gerçekleştirilmemiştir. VIF ve RONR protokollerinin detaylı analizi gerçekleştirildikten sonra daha verimli
+              yeni protokoller önerilebilir. Bu yönlendirme protokolleri arasında hangisinin AVATAR uygulaması için daha verimli sonuç vereceği
+              de araştırmaya açık bir alandır. AVATAR uygulamasının işlevsel olarak çalışması için hayati sağlık verilerinin gerçek zamanlı
+              olarak aktarılması gerekecektir. Bunun gerçekleştirilebilmesi için CCN-Lite protokolü üzerinde gerçek zamanlı veri aktarımını
+              sağlayacak bir uygulama katmanının bulunması gerekecektir. Bildiğimiz kadarıyla henüz böyle bir uygulama katmanı protokolü
+              Nesnelerin İnterneti kapsamında geliştirilmemiştir. AVATAR projesinde bireylerin sağlıkla ilgili verilerinin gerçek zamanlı
+              aktarılabilmesi için bir uygulama katmanı protokolü de geliştirilecektir. Bütün bu parçalar bir araya getirildiğinde AVATAR
+              projesinin IoT CCN-Lite yığını kullanılarak uçtan uca uygun olarak çalışması sağlanmış olacaktır. Son olarak AVATAR
+              uygulamasının performansının geleneksel IoT IP yığını ve IoT CCN-Lite yığını kullanıldığında nasıl etkilendiğinin değerlendirmesi
+              gerçekleştirilecektir. Bu kapsamda proje yürütücünün IoT IP yığınıyla bireylerin sağlık verilerinin iletilmesi üzerine SİREN isimli bir
+              projesi bulunmaktadır. Bu paragrafta anlatılan araştırmaya açık olan problemler çözülerek ve performans değerlendirmesi
+              gerçekleştirilerek AVATAR uygulaması başarılı olarak işlevsel hale getirilecektir.
+            </p>
+            <p>Bireylerin hayati işaret verilerinin Nesnelerin İnterneti ağı ortamında iletilirken veri/bilgi güvenliği de önem arz eder
+              (Somasundaram vd., 2011). Bilgi güvenliği başlı başına geniş bir araştırma konusu olduğundan AVATAR projesi kapsamında bilgi
+              güvenliği üzerine çalışılmayacaktır. AVATAR projesinin uçtan uca işlevsel bir uygulama olarak çalışabilmesi için Nesnelerin
+              İnterneti ağ ortamında iletilen bireylerin hayati verilerinin hasta gözlem merkezinde işlenerek anlamlı hale getirilmesi gerekecektir.
+              Bu verilerin hasta gözle merkezinde anlamlı hale getirilmesi de AVATAR projesinin kapsamı dışındadır. Ancak verilerin
+              anlamlandırılabilir halde iletilmesi AVATAR projesinin kapsamındadır. AVATAR projesi ağ mimarisinde yer alan geçidin daha
+              verimli çalışır hale getirilmesi de mümkündür. AVATAR projesi kapsamında akıllı geçit tasarlanması da ele alınmayacaktır.
+            </p>
           </div>
         </div>
-        <div class="row justify-content-center mb-5 pb-5">
-          <div class="col-md-6 text-center heading-section ftco-animate">
-            <!-- <span class="subheading">Our Services</span> -->
-            <h2 class="mb-4">Projenin Hedefleri</h2>
-            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in</p>
-          </div>
-        </div>
-        <!-- <div class="row mb-5">
-          <div class="col-md-6 col-lg-3 d-flex align-self-stretch ftco-animate">
-            <div class="media block-6 services d-block text-center">
-              <div class="d-flex justify-content-center"><div class="icon color-3 d-flex justify-content-center mb-3"><span class="align-self-center icon-lightbulb-o"></span></div></div>
-              <div class="media-body p-2 mt-3">
-                <h3 class="heading">Strategy</h3>
-                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
-              </div>
-            </div>      
-          </div>
-          <div class="col-md-6 col-lg-3 d-flex align-self-stretch ftco-animate">
-            <div class="media block-6 services d-block text-center">
-              <div class="d-flex justify-content-center"><div class="icon color-1 d-flex justify-content-center mb-3"><span class="align-self-center icon-laptop"></span></div></div>
-              <div class="media-body p-2 mt-3">
-                <h3 class="heading">Design</h3>
-                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
-              </div>
-            </div>      
-          </div>
-          <div class="col-md-6 col-lg-3 d-flex align-self-stretch ftco-animate">
-            <div class="media block-6 services d-block text-center">
-              <div class="d-flex justify-content-center"><div class="icon color-2 d-flex justify-content-center mb-3"><span class="align-self-center icon-gear"></span></div></div>
-              <div class="media-body p-2 mt-3">
-                <h3 class="heading">Development</h3>
-                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
-              </div>
-            </div>    
-          </div>
-
-          <div class="col-md-6 col-lg-3 d-flex align-self-stretch ftco-animate">
-            <div class="media block-6 services d-block text-center">
-              <div class="d-flex justify-content-center"><div class="icon color-4 d-flex justify-content-center mb-3"><span class="align-self-center icon-live_help"></span></div></div>
-              <div class="media-body p-2 mt-3">
-                <h3 class="heading">Help &amp; Supports</h3>
-                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
-              </div>
-            </div>      
-          </div>
-        </div> -->
-        <!-- <div class="row mt-5">
-          <div class="col-md-4 ftco-animate">
-            <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
-            <ul class="list-services">
-              <li><h3>#1</h3></li>
-              <li><a href="#">UI/UX Design</a></li>
-              <li><a href="#">Mobile App Design Design</a></li>
-              <li><a href="#">Responsive Design</a></li>
-            </ul>
-          </div>
-          <div class="col-md-4 ftco-animate">
-            <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
-            <ul class="list-services">
-              <li><h3>#2</h3></li>
-              <li><a href="#">HTML / CSS</a></li>
-              <li><a href="#">Prototyping</a></li>
-              <li><a href="#">Wireframes</a></li>
-            </ul>
-          </div>
-          <div class="col-md-4 ftco-animate">
-            <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
-            <ul class="list-services">
-              <li><h3>#3</h3></li>
-              <li><a href="#">Product Strategy</a></li>
-              <li><a href="#">UX Strategy</a></li>
-              <li><a href="#">User Testing</a></li>
-            </ul>
-          </div>
-        </div>
-      </div> -->
     </section>
 
     <footer class="ftco-footer ftco-bg-dark ftco-section">
